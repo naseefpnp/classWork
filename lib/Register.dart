@@ -18,9 +18,9 @@ class _RegisterState extends State<Register> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("REGISTER"),
-      ),
+      // appBar: AppBar(
+      //   title: Text("REGISTER"),
+      // ),
       body: Form(
         key:formkey ,
         child: Column(

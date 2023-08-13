@@ -7,9 +7,9 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(
-        title: Text("home"),
-      ),
+      // appBar: AppBar(
+      //   title: Text("home"),
+      // ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

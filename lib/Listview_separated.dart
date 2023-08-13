@@ -19,9 +19,9 @@ class Listview_separated extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("hello"),
-        ),
+        // appBar: AppBar(
+        //   title: Text("hello"),
+        // ),
         body: ListView.separated(
             itemBuilder: (context, index) {
               return Card(
